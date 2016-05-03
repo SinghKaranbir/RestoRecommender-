@@ -25,6 +25,7 @@
             android:label="Login"
             android:name=".LoginActivity"
             android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Dashboard" />
 
         <activity
             android:label="Choose Subcategory"
