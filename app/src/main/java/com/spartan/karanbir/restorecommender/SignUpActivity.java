@@ -34,7 +34,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
     private EditText mFirstName;
     @NotEmpty
     private EditText mLastName;
-    @Password(min = 6, scheme = Password.Scheme.ALPHA_NUMERIC, message = "Must be 6 chars and Alphanumaric")
+    @Password(min = 6, scheme = Password.Scheme.ALPHA_NUMERIC, message = "Must be 6 chars and Alphanumeric")
     private EditText mPassword;
     @NotEmpty
     @Email
